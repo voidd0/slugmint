@@ -1,0 +1,47 @@
+{
+  "name": "@v0idd0/slugmint",
+  "version": "1.0.0",
+  "description": "slugmint \u2014 URL slug generator with proper transliteration for 40+ scripts (Russian, Greek, Arabic, Hebrew, Chinese pinyin, Japanese romaji, Korean romanization, Hindi, Thai). Free forever from v\u00f8iddo.",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "slugmint": "./bin/slugmint.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "slug",
+    "slugify",
+    "url",
+    "transliteration",
+    "seo",
+    "i18n",
+    "cli",
+    "developer-tools",
+    "voiddo"
+  ],
+  "author": "v\u00f8iddo <support@voiddo.com> (https://voiddo.com)",
+  "license": "MIT",
+  "homepage": "https://tools.voiddo.com/slugmint/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voidd0/slugmint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/voidd0/slugmint/issues",
+    "email": "support@voiddo.com"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ]
+}
