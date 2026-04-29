@@ -16,7 +16,7 @@ cafe-creme
 ## Install
 
 ```bash
-npm install -g pnkd-slugmint
+npm install -g @v0idd0/slugmint
 ```
 
 ## Usage
@@ -49,7 +49,7 @@ CJK characters (Chinese, Japanese, Korean) aren't transliterated — they're bet
 ## Programmatic API
 
 ```javascript
-import { slugify } from 'pnkd-slugmint';
+import { slugify } from '@v0idd0/slugmint';
 
 slugify('Привет мир');
 // 'privet-mir'
@@ -77,3 +77,7 @@ The popular `slugify` package is solid but bloated (40+ KB). `slugmint` is ~4 KB
 ## License
 
 MIT — part of the [vøiddo](https://voiddo.com) tools collection.
+
+---
+
+Built by [vøiddo](https://voiddo.com/) — a small studio shipping AI-flavoured products, free dev tools, Chrome extensions and weird browser games.
